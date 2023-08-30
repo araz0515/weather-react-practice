@@ -1,0 +1,23 @@
+.Form .form-control {
+  margin: 0 0 15px;
+}
+.Form .btn {
+  color: #38598b;
+  border: 1px solid #38598b;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.Form .btn:hover {
+  background: #38598b;
+  color: white;
+}
+
+.dark .btn {
+  border: 1px solid black;
+  color: black;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.dark .btn:hover {
+  background: #222831;
+  color: white;
+}
