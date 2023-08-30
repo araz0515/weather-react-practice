@@ -32,13 +32,13 @@ export default function Weather() {
               </h1>
               <span className="degree">
                 {" "}
-                <a href="" className=" degreeCelsius active" id="degreeCelsius">
+                <button className=" degreeCelsius active" id="degreeCelsius">
                   ˚C
-                </a>{" "}
+                </button>{" "}
                 |{" "}
-                <a href="#" className="degreeFahrenheit" id="degreeFahrenheit">
+                <button className="degreeFahrenheit" id="degreeFahrenheit">
                   ˚F
-                </a>
+                </button>
               </span>
               <div className="description" id="description" />{" "}
               {weatherData.description}
